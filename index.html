@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi revista interactiva</title>
+
+  <!-- jQuery (necesario para Turn.js) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Turn.js -->
+  <script src="https://cdn.jsdelivr.net/gh/blasten/turn.js/turn.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="flipbook">
+    <div class="page cover">
+      <h1>Mi Revista</h1>
+      <p>Haz click para pasar página ✨</p>
+    </div>
+
+    <div class="page">
+      <h2>Página 1</h2>
+      <p>Esto es una revista interactiva.</p>
+      <a href="https://example.com" target="_blank">👉 Link externo</a>
+    </div>
+
+    <div class="page">
+      <h2>Página 2</h2>
+      <button onclick="alert('Hola 👋')">Botón interactivo</button>
+    </div>
+
+    <div class="page back">
+      <h2>Fin</h2>
+      <p>Gracias por leer 💖</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

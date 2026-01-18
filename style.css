@@ -1,0 +1,29 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#flipbook {
+  width: 600px;
+  height: 400px;
+}
+
+.page {
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.cover {
+  background: #222;
+  color: white;
+}
+
+.back {
+  background: #f2f2f2;
+}
